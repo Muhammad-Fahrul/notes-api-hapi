@@ -6,9 +6,8 @@ class AuthenticationHandler {
     this.userService = userService;
     this.tokenManager = tokenManager;
     this.validator = validator;
-    console.log(this.validator);
 
-    this.putAuthenticationHandler = this.putAuthenticationHandler.bind(this);
+    this.postAuthenticationHandler = this.postAuthenticationHandler.bind(this);
     this.putAuthenticationHandler = this.putAuthenticationHandler.bind(this);
     this.deleteAuthenticationHandler = this.deleteAuthenticationHandler.bind(this);
   }
